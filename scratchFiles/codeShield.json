@@ -1,0 +1,22 @@
+{
+"extensionName": "CodeShield",
+"extensionPort": 50207,
+"blockSpecs": [
+["r", "Potentiometer_s", "potVal"],
+["r", "HallEffect_s", "hallVal"],
+["r", "Thermistor_s", "thermVal"],
+["r", "ButtonSwitch_s", "buttonVal"],
+["r", "SlideSwitch_s", "switchVal"],
+["r", "Encoder_s", "encoderVal"],
+["r", "PhotoCell_s", "photoVal"],
+
+
+
+["" , "Relay_a %n", "relayState",0],
+["" , "Servo_a %n", "servoDegrees",90],
+["" , "LEDSelect_a %n %n", "LEDSelect", 1, 128],
+["" , "LEDDigitalSelect_a %n %n", "LEDDigitalSelect", 1, 0],
+["" , "PiezoTone_a %n %n", "piezoTone", 550, 1000]
+]
+}
+
